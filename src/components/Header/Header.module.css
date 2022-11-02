@@ -1,8 +1,13 @@
 .header {
-  padding: 17px 23px;
 }
 
 .container {
+  padding: 17px 23px;
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+.wrapper {
   display: flex;
   justify-content: space-between;
   gap: 20px;
@@ -10,6 +15,7 @@
   border: 1px solid #1e2d3d;
   border-radius: 5px 5px 0 0;
   position: relative;
+  padding: 0 23px;
 }
 
 .name {
@@ -20,7 +26,6 @@
 }
 
 .navigation {
-  margin: 0 auto;
 }
 
 .list {
@@ -60,6 +65,9 @@ li {
   -o-transition: transform 0.25s ease-out;
   transition: transform 0.25s ease-out;
   transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+
+.contact {
 }
 
 .link:hover::after {
