@@ -6,6 +6,7 @@ function Main() {
   return (
     <div className={s.wrapper}>
       <Header />
+      <div>123</div>
     </div>
   );
 }

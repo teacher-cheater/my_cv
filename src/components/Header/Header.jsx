@@ -11,13 +11,19 @@ function Header() {
         <nav className={s.navigation}>
           <ul className={s.list}>
             <li>
-              <a href="">_hello</a>
+              <a className={s.link} href="">
+                _hello
+              </a>
             </li>
             <li>
-              <a href="">_about-me</a>
+              <a className={s.link} href="">
+                _about-me
+              </a>
             </li>
             <li>
-              <a href="">_projects</a>
+              <a className={s.link} href="">
+                _projects
+              </a>
             </li>
           </ul>
         </nav>

@@ -67,8 +67,6 @@ body {
 
 .wrapper {
   min-height: 100%;
-  border: 1px solid #1e2d3d;
-  border-radius: 5px;
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,4 +82,8 @@ body {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
+}
+
+#root {
+  background: #010c15;
 }
