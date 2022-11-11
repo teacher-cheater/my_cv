@@ -52,7 +52,6 @@ img {
 html,
 body {
   height: 100%;
-  background: #f5f5f5;
   font-family: "Fira Code";
 }
 
@@ -78,12 +77,13 @@ body {
 }
 
 /* ------------------------------ */
-.main {
+/*.main {
   -webkit-box-flex: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-}
+}*/
 
 #root {
-  background: #010c15;
+  /*background: #1e2d3d;*/
+  background: #011627;
 }

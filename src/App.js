@@ -6,14 +6,15 @@ import {
 } from "react-router-dom";
 
 import './App.css';
-import Main from "./components/Header/Header";
+import MainPage from "./components/MainPage/MainPage";
+
 
 function App() {
   return (
     <BrowserRouter basename="/">
       <Routes>
         <Route path="/" element={
-          <Main />
+          <MainPage />
         } />
         <Route />
       </Routes>

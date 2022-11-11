@@ -1,15 +1,15 @@
-import React from "react";
-import Header from "../Header/Header";
-import InformationAboutMe from "../Information/InformationAboutMe";
-
 import s from "./Main.module.css";
+import InformationAboutMe from "../Information/InformationAboutMe";
 
 function Main() {
   return (
-    <div className={s.wrapper}>
-      <Header />
-      <InformationAboutMe />
-    </div>
+    <main className={s.main}>
+      <div className={s.container}>
+        <div className={s.wrapper}>
+          <InformationAboutMe />
+        </div>
+      </div>
+    </main>
   );
 }
 

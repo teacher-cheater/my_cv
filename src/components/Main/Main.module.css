@@ -1,0 +1,21 @@
+.main {
+  flex-grow: 1;
+}
+
+.container {
+  padding: 17px 23px;
+  /*display: flex;
+  justify-content: space-between;*/
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-between;*/
+  gap: 20px;
+  /*align-items: center;*/
+  /*border: 1px solid #1e2d3d;*/
+  /*border-radius: 5px 5px 0 0;*/
+  /*position: relative;*/
+  padding: 0 23px;
+}
