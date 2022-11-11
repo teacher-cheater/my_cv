@@ -3,9 +3,11 @@
 }
 
 .container {
-  padding: 17px 23px;
-  /*display: flex;
-  justify-content: space-between;*/
+  /*padding: 17px 23px;*/
+  max-width: 1190px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
 
 .wrapper {
@@ -13,7 +15,7 @@
   flex-direction: column;
   /*justify-content: space-between;*/
   gap: 20px;
-  /*align-items: center;*/
+  align-items: center;
   /*border: 1px solid #1e2d3d;*/
   /*border-radius: 5px 5px 0 0;*/
   /*position: relative;*/
