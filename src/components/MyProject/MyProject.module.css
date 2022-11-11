@@ -1,0 +1,18 @@
+.section {
+  z-index: 2;
+}
+.wrapper {
+}
+.container {
+}
+.project {
+  max-width: 510px;
+  max-height: 475px;
+  /*width: 510px;
+  height: 475px;*/
+  background: linear-gradient(150.26deg, rgba(23, 85, 83, 0.7) 1.7%, rgba(67, 217, 173, 0.091) 81.82%);
+  border: 1px solid #0c1616;
+  box-shadow: inset 0px 2px 0px rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(32px);
+  border-radius: 8px;
+}

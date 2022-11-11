@@ -3,7 +3,7 @@ import s from "./InformationAboutMe.module.css";
 
 function InformationAboutMe() {
   return (
-    <>
+    <section className={s.section}>
       <div className={s.block}>
         <p className={s.text}>Hi all. I am</p>
         <h1 className={s.name}>Nekipelov Evgeniy</h1>
@@ -12,6 +12,7 @@ function InformationAboutMe() {
       <div className={s.block}>
         <p className={s.info}>// complete the game to continue</p>
         <p className={s.info}>// you can also see it on my Github page</p>
+        <p className={s.findme}>// find my profile on Github: </p>
         <div className={s.link}>
           <span className={s.const}>const</span>{" "}
           <span className={s.github}>githubLink</span> =
@@ -21,7 +22,7 @@ function InformationAboutMe() {
           </span>
         </div>
       </div>
-    </>
+    </section>
   );
 }
 

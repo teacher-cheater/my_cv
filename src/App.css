@@ -74,6 +74,7 @@ body {
   -webkit-box-direction: normal;
   -ms-flex-direction: column;
   flex-direction: column;
+  border: 2px solid #fff;
 }
 
 /* ------------------------------ */
@@ -86,4 +87,5 @@ body {
 #root {
   /*background: #1e2d3d;*/
   background: #011627;
+  /*background: #011627;*/
 }
