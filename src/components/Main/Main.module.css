@@ -1,11 +1,13 @@
 .main {
   flex-grow: 1;
+  display: flex;
 }
 
 .container {
   /*padding: 17px 23px;*/
   max-width: 1190px;
   align-items: center;
+  align-self: center;
   display: flex;
   justify-content: space-between;
 }
