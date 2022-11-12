@@ -1,0 +1,44 @@
+.menu {
+  height: 100%;
+  width: 100%;
+  background: #011627;
+  position: fixed;
+  z-index: 20;
+  /*display: flex;*/
+  /*align-items: center;*/
+}
+
+.burgerbtn {
+  /*width: 18px;*/
+  /*height: 2px;*/
+  /*background: #607b96;*/
+  background: #fff;
+  position: relative;
+  cursor: pointer;
+}
+.burgerbtn span {
+  position: absolute;
+  top: 0px;
+  left: -18px;
+  width: 18px;
+  height: 2px;
+  background: #607b96;
+}
+.burgerbtn::before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -18px;
+  width: 18px;
+  height: 2px;
+  background: #607b96;
+}
+.burgerbtn::after {
+  content: "";
+  position: absolute;
+  bottom: 3px;
+  left: -18px;
+  width: 18px;
+  height: 2px;
+  background: #607b96;
+}
