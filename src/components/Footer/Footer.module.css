@@ -125,8 +125,11 @@ a {
     color: #607b96;
   }
 }
-@media (max-width: 767.98px) {
+@media (max-width: 839.98px) {
   .footer {
-    display: none;
+    /*display: none;*/
   }
 }
+/*@media (max-width: 767.98px) {
+
+}*/

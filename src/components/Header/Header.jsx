@@ -9,7 +9,7 @@ function Header() {
         <div className={s.wrapper}>
           <div className={s.cotent}>
             <h3 className={s.name}>
-              <a href="">teacher-cheater</a>
+              <a href="#">teacher-cheater</a>
             </h3>
             <nav className={s.navigation}>
               <ul className={s.list}>

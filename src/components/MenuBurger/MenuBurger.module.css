@@ -1,21 +1,24 @@
 .menu {
-  height: 100%;
+  /*height: 100%;
   width: 100%;
   background: #011627;
   position: fixed;
-  z-index: 20;
-  /*display: flex;*/
-  /*align-items: center;*/
+  z-index: 20;*/
 }
 
 .burgerbtn {
-  /*width: 18px;*/
-  /*height: 2px;*/
-  /*background: #607b96;*/
-  background: #fff;
-  position: relative;
-  cursor: pointer;
+  display: none;
 }
+
+@media (max-width: 839.98px) {
+  .burgerbtn {
+    display: block;
+    background: #fff;
+    position: relative;
+    cursor: pointer;
+  }
+}
+
 .burgerbtn span {
   position: absolute;
   top: 0px;
@@ -41,4 +44,35 @@
   width: 18px;
   height: 2px;
   background: #607b96;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  position: fixed;
+  top: 70px;
+  left: -100%;
+  bottom: 0;
+  z-index: 10;
+  /*width: 100%;*/
+  transition: left 1s;
+  background-color: #000;
+}
+.active-menu {
+  left: 19px;
+}
+.link {
+  display: flex;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.3;
+  color: #ffffff;
+  padding: 14px 25px;
+}
+
+.list li {
+  border: 1px solid #1e2d3d;
+  display: flex;
+  color: #ffffff;
 }
