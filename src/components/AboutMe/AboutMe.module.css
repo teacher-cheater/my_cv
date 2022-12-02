@@ -10,16 +10,87 @@
   color: #607b96;
   padding: 13px 19px;
   justify-content: space-between;
+  padding: 0;
 }
 .sort {
+  display: flex;
+  flex-direction: column;
   max-width: 68px;
   padding: 17px 20px;
+  text-align: center;
+  gap: 33px;
+  border: 1px solid #1e2d3d;
+}
+.icons {
+}
+.icon {
+  width: 24px;
+  height: 24px;
 }
 .main {
   max-width: 243px;
+  display: flex;
+  flex-direction: column;
+}
+.subtitle {
+  display: flex;
+  gap: 50px;
+  border: 1px solid #1e2d3d;
+  padding: 10px 14px;
+}
+
+.info {
   padding: 22px 16px;
+  border: 1px solid #1e2d3d;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.bio {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.folder {
+  width: 14.44px;
+  height: 13px;
+}
+.schools {
+  display: flex;
+  gap: 9px;
+  align-items: center;
+}
+.school {
+  width: 16px;
+  height: 14px;
+}
+.contacts {
+  padding: 17px 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 1px solid #1e2d3d;
+}
+.contact {
+  display: flex;
+  gap: 10px;
+}
+.connect {
+  width: 16.22px;
+  height: 14.6px;
 }
 .about {
+  padding: 18px 38px;
+}
+.myself {
+  max-width: 569px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.myself p {
+  display: flex;
+  gap: 5px;
 }
 .code {
 }
