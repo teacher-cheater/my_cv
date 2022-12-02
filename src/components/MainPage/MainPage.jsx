@@ -14,10 +14,6 @@ function MainPage({ Link }) {
     { value: "_projects", href: "./Footer" },
     { value: "_contact-me", href: "./Information" },
   ];
-  //const items = [
-  //  { title: "Main", link: "/MainPage" },
-  //  { title: "_about-me", link: "/AboutMe" },
-  //];
 
   return (
     <div className={s.wrapper}>
