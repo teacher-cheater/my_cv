@@ -8,16 +8,15 @@ import s from "./MainPage.module.css";
 
 function MainPage({ Link }) {
   const items = [
-    { value: "Main", href: "/MainPage" },
-    { value: "_hello", href: "./Menu" },
+    { value: "_hello", href: "./" },
     { value: "_about-me", href: "./AboutMe" },
-    { value: "_projects", href: "./Footer" },
-    { value: "_contact-me", href: "./Information" },
+    { value: "_projects", href: "./projects" },
+    { value: "_contact-me", href: "./contacts" },
   ];
 
   return (
     <div className={s.wrapper}>
-      <Header />
+      <Header items={items} Link={Link} />
       <Main />
       <Menu header={"Burger"} items={items} Link={Link} />
       <Footer />

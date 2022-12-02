@@ -87,10 +87,16 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
+  flex-wrap: wrap;
 }
 .myself p {
   display: flex;
   gap: 5px;
+}
+.number {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 .code {
 }

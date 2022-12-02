@@ -74,17 +74,26 @@ function AboutMe() {
         </div>
         <div className={s.about}>
           <div className={s.myself}>
-            <p>2</p> <p>/** * About me</p>
-            <p>2</p> <p>* I have 5 years of еxperience in web</p>
-            <p>2</p> <p>* development lorem ipsum dolor sit amet,</p>
-            <p>2</p> <p>* consectetur adipiscing elit, sed do eiusmod</p>
-            <p>2</p> <p>* tempor incididunt ut labore et dolore</p>
-            <p>2</p> <p>* magna aliqua. Ut enim ad minim veniam,</p>
-            <p>2</p> <p>* quis nostrud exercitation ullamco laboris</p>
-            <p>2</p> <p>* nisi ut aliquip ex ea commodo consequat.</p>
-            <p>2</p> <p>* </p>
-            <p>2</p> <p>* Duis aute irure dolor in reprehenderit in</p>
-            <p>2</p> <p>* Duis aute irure dolor in reprehenderit in */</p>
+            <p className={s.number}>2</p> <p>/** * About me</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* I have 5 years of еxperience in web</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* development lorem ipsum dolor sit amet,</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* consectetur adipiscing elit, sed do eiusmod</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* tempor incididunt ut labore et dolore</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* magna aliqua. Ut enim ad minim veniam,</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* quis nostrud exercitation ullamco laboris</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* nisi ut aliquip ex ea commodo consequat.</p>
+            <p className={s.number}>2</p> <p>* </p>
+            <p className={s.number}>2</p>{" "}
+            <p>* Duis aute irure dolor in reprehenderit in</p>
+            <p className={s.number}>2</p>{" "}
+            <p>* Duis aute irure dolor in reprehenderit in */</p>
           </div>
         </div>
         <div className={s.code}>444</div>
