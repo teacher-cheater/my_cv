@@ -6,6 +6,7 @@ import {
 } from "react-router-dom";
 
 import './App.css';
+import AboutMe from "./components/AboutMe/AboutMe";
 import MainPage from "./components/MainPage/MainPage";
 
 
@@ -15,6 +16,10 @@ function App() {
       <Routes>
         <Route path="/" element={
           <MainPage />
+        } />
+        <Route />
+        <Route path="/AboutMe" element={
+          <AboutMe />
         } />
         <Route />
       </Routes>
