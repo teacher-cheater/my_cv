@@ -12,6 +12,7 @@ import info from "./icons-about/info.svg";
 import phone from "./icons-about/phone.svg";
 import school from "./icons-about/school.svg";
 import star from "./icons-about/star.svg";
+import bg from "./bg/bg.jpg";
 
 import s from "./AboutMe.module.css";
 
@@ -96,7 +97,35 @@ function AboutMe() {
             <p>* Duis aute irure dolor in reprehenderit in */</p>
           </div>
         </div>
-        <div className={s.code}>444</div>
+        <div className={s.code}>
+          <div className={s.codeTitle}>// Code snippet showcase:</div>
+          <div className={s.blockCode}>
+            <div className={s.example}>
+              <div className={s.top}>
+                <div className={s.user}>
+                  <img className={s.ava} src={school} alt="ava" />
+                  <div className={s.data}>
+                    <h3 className={s.username}>@username</h3>
+                    <p>Created 5 months ago</p>
+                  </div>
+                </div>
+                <div className={s.details}>
+                  <div className={s.detail}>
+                    <img className={s.img} src={details} alt="details" />
+                    <p>details</p>
+                  </div>
+                  <div className={s.detail}>
+                    <img className={s.img} src={star} alt="star" />
+                    <p>stars</p>
+                  </div>
+                </div>
+              </div>
+              <div className={s.bottom}>
+                <img className={s.s} src={bg} alt="bg" />
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <Footer />
     </div>

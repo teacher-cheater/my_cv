@@ -4,7 +4,7 @@
 }
 
 .container {
-  padding: 17px 23px;
+  padding: 0 23px 17px 23px;
 }
 
 .wrapper {
@@ -12,7 +12,7 @@
   justify-content: space-between;
   gap: 20px;
   align-items: center;
-  border: 1px solid #1e2d3d;
+  outline: 1px solid #1e2d3d;
   border-radius: 5px 5px 0 0;
   position: relative;
   padding: 0 23px;
@@ -105,7 +105,7 @@ a {
 }
 @media (max-width: 839.98px) {
   .container {
-    padding: 13px 19px;
+    padding: 0 19px 13px 19px;
   }
   .wrapper {
     gap: 16px;

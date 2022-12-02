@@ -2,7 +2,7 @@ import React from "react";
 import MenuBurger from "../MenuBurger/MenuBurger";
 import s from "./Header.module.css";
 
-function Header() {
+function Header({ Link }) {
   const items = [
     { value: "_hello", href: "./" },
     { value: "_about-me", href: "./AboutMe" },

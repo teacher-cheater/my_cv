@@ -7,7 +7,7 @@ function Menu({ header, items, Link }) {
       <div className={s.blur}>
         <div className={s.content}>
           <div className={s.header}>{header}</div>
-          {/*<ul className={s.list}>
+          <ul className={s.list}>
             {items.map((item, idx) => {
               return (
                 <li key={`Link item ${idx}`} className={s.link}>
@@ -15,7 +15,7 @@ function Menu({ header, items, Link }) {
                 </li>
               );
             })}
-          </ul>*/}
+          </ul>
           {/*<ul className={s.list}>
             <li className={s.link}>
               <Link to="/MainPage">Main</Link>

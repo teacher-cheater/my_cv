@@ -90,7 +90,7 @@
 }
 
 .list li {
-  border: 1px solid #1e2d3d;
+  outline: 1px solid #1e2d3d;
   display: flex;
   color: #ffffff;
 }
